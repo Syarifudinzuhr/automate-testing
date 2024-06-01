@@ -48,6 +48,7 @@ public class Login {
     }
 
     @AfterTest
-    public void closeBrowser() { driver.quit();}
-
+    public void closeBrowser() { 
+        driver.quit();
+    }
 }
